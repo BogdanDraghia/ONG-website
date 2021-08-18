@@ -1,0 +1,150 @@
+@import "./variable.scss";
+//new
+
+//TEST MUST CHANGE
+.logoNavBar {
+  width: 100px;
+
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.logoNavBar > img {
+  object-fit: cover;
+  width: 100%;
+}
+.ContainerNav {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.Nav {
+  color: $black-color;
+  padding: 10px 10px;
+  margin: 20px;
+}
+.NavHighlight {
+  color: $accent-color;
+  font-weight: 600;
+}
+//DROPDOWN
+.hide {
+  display: none;
+}
+.dropdown {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  display: none;
+  background-color: #f2f2f2;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  transition: opacity 0.35s ease-out;
+}
+.projects {
+  transform: translateX(-80px);
+}
+.about {
+  transform: translateX(260px);
+}
+.contact {
+  font-size: 18px;
+  color: $accent-color;
+  font-weight: 600;
+  padding: 0px 15px;
+
+  border-radius: 5px;
+}
+.dropdown > a {
+  color: inherit;
+  padding: 10px;
+}
+.dropdown-true:focus-within .dropdown {
+  opacity: 1;
+  display: flex;
+}
+.test:hover .dropdown {
+  opacity: 1;
+  display: flex;
+}
+
+.dropdown > a:hover {
+  background-color: #f2f2f2;
+}
+
+//line
+.underLine {
+  height: 3px;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+  animation-direction: alternate;
+  background-color: $accent-color;
+}
+.underLine {
+  margin: 4px;
+}
+.dropdown .no-decoration:hover .underLine {
+  animation: reducetime 0.5s ease-out;
+
+  opacity: 1;
+}
+@keyframes reducetime {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+.Navigation-Text {
+}
+//TEST
+.Navigation-Items {
+  display: flex;
+}
+.dropdownNav {
+  position: relative;
+}
+.dropdown-Items {
+  width: 200px;
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  position: absolute;
+}
+.dropdown-Items a {
+  padding: 20px;
+}
+.testdropdown:hover .dropdown-Items {
+  opacity: 1;
+  transition: opacity 0.35s ease-out;
+}
+.haveDropdown2 {
+  position: relative;
+}
+//TEST NEW DROPDOWN
+.dropdownTrue {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  background-color: #f2f2f2;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  position: absolute;
+  transition: opacity 0.35s ease-out;
+}
+.dropdowntestlink {
+  padding: 10px 20px;
+  background-color: aqua;
+}
+.dropdownFalse {
+  display: none;
+}

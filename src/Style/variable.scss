@@ -1,0 +1,97 @@
+///Variables
+
+//Colors
+
+$background-color: #fffbfc;
+$accent-color: #87a8f5;
+$CAccent-color: #c6d6fa;
+$black-color: #2f2f2f;
+$complentary-color: #f5d491;
+
+//Shadow
+$shadowBox1: 0 5px 10px rgba(154, 160, 185, 0.05),
+  0 15px 40px rgba(166, 173, 201, 0.2);
+
+///
+//General Style elements
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.WidthCenter {
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 70em;
+}
+.ButtonSectionLanding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+}
+.spaceBettwenComponent {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.Button1 {
+  border: 0;
+
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 15px;
+  width: 25%;
+  border-radius: 5px;
+  background-color: $accent-color;
+}
+.Button2 > a {
+  color: $accent-color;
+  text-decoration: none;
+}
+.Button2 {
+  margin-left: 20px;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 15px;
+
+  border-radius: 5px;
+}
+.Button1 > a {
+  text-decoration: none;
+  color: white;
+}
+.gridFlex {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.WidthCenterPost {
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 60em;
+}
+.no-decoration {
+  text-decoration: none;
+}
+.listStyleNone > ul > li {
+  list-style: none;
+}
+.LineSeparation {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #eee;
+}
+.tittluContent {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+//DE EDITAT
+
+$TxtColor1: black;
+$TxtColor1a1: #2f2f2f;
+$TxtColor2: #707070;
+$TxtColor3: #bfced9;

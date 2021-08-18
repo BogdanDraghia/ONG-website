@@ -1,0 +1,234 @@
+@import "./variable.scss";
+
+.ContainerC2 {
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 50em;
+  margin-bottom: 100px;
+}
+.ContactTitleBox {
+  margin-bottom: 50px;
+}
+.ContactTitleBox h2,
+h3 {
+  color: black;
+}
+.ContactTitleBox > h3 {
+  color: $TxtColor2;
+}
+
+// FORM AND CONTACT INFO
+
+.ContactBox {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  border-radius: 10px;
+}
+
+.ContactBoxForm {
+  border-radius: 10px;
+  color: #646f79;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.ContactBoxInfo {
+  background-color: #e0f3f2;
+
+  color: #646f79;
+  width: 35%;
+  padding-bottom: 40px;
+  text-align: left;
+}
+
+//Titles Contact info /Contact form
+
+.ContactBoxInfo a1 {
+  color: black;
+  margin: 30px;
+  margin-left: 4em;
+  margin-bottom: 0px;
+  display: block;
+
+  font-size: 20px;
+}
+
+.ContactBoxInfo a {
+  font-size: 12px;
+}
+//Form
+.FormBox {
+  margin: 0 auto;
+
+  max-width: calc(100% - 5em);
+  height: calc(100% - 5em);
+  display: block;
+}
+
+.formm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.form-group {
+  margin-top: 10px;
+}
+.form-group label {
+  color: $TxtColor1a1;
+  display: block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.first {
+  width: 50%;
+}
+.first input {
+  width: 90%;
+  margin-right: 10px;
+}
+.second {
+  width: 50%;
+}
+.second input {
+  width: 100%;
+}
+.textareaa2 {
+  width: 100%;
+}
+::placeholder {
+  color: $TxtColor2;
+}
+.textareaa2 textarea {
+  resize: vertical;
+  width: 100%;
+  min-height: 150px;
+}
+.form-group input[type="text"],
+textarea {
+  background-color: #f8f8f8;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  height: 3em;
+  padding: 0 1em;
+}
+.form-group textarea {
+  padding-top: 1em;
+}
+.form-group input {
+}
+//Contact Info ,flexbox.
+
+.Text {
+}
+.ContactSet {
+  display: block;
+  margin: 12px;
+  margin-top: 60px;
+
+  margin-left: 5em;
+}
+
+.ContactSet > img {
+  margin: 5px;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+//Contact Box , form
+.ContactBoxForm a1 {
+  margin: 30px;
+  color: black;
+  margin-left: 4em;
+  margin-bottom: 0px;
+  display: block;
+  font-size: 20px;
+}
+#Sabutton {
+  margin-top: 20px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  font-size: 16px;
+  background: $accent-color;
+  box-shadow: 0 5px 0 0 #4f97e3;
+  border-radius: 15px;
+  min-width: 100px;
+  padding: 10px 35px;
+  color: #ffffff;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+.formFlex .Button1 {
+  margin-top: 20px;
+  color: white;
+}
+//responsive
+
+@media only screen and (max-width: 768px) {
+  .ContactBox {
+    flex-direction: column;
+  }
+  .ContactBoxInfo {
+    width: 100%;
+  }
+  .ContactBoxForm {
+    width: 100%;
+  }
+  .first input {
+    width: 100%;
+    min-width: 200px;
+  }
+  .second input {
+    min-width: 200px;
+  }
+  .formm {
+    flex-direction: column;
+  }
+}
+
+//OTHER
+
+.ContactInfoIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-weight: 700;
+  background-color: $accent-color;
+}
+.ContactInfoTittle {
+  font-weight: 700;
+  color: #2f2f2f;
+  margin: 15px 0px 10px;
+}
+.ContactInfoData {
+  font-weight: 500;
+  color: #707070;
+}
+
+//COntactData
+.ContactInfo {
+  margin-bottom: 30px;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.ContactInfo-Item {
+  display: flex;
+  flex: 1 1;
+  text-align: center;
+  font-weight: 700;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}

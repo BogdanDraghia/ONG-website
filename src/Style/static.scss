@@ -1,0 +1,89 @@
+@import "./variable.scss";
+
+.Numbers-section {
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 50em;
+  margin-bottom: 200px !important;
+}
+.SubNumbers-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.RightBoxNumbers {
+  flex: 2 1;
+}
+.RightNumbers {
+  background-color: #87a8f5;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 5px;
+  color: white;
+  z-index: 4;
+  box-shadow: $shadowBox1;
+}
+.TittluNumbers {
+  margin-bottom: 20px;
+}
+.LeftBoxNumbers {
+  flex: 3 1;
+  border-radius: 15px;
+}
+.Maini1 {
+  height: 30%;
+}
+.Maini {
+  margin: 0 auto;
+  height: 100px;
+  width: 70%;
+  margin-bottom: -10px;
+  z-index: -2;
+  background-color: white;
+}
+
+.LeftNumbers {
+  box-shadow: $shadowBox1;
+  margin-right: -50px;
+  background-color: #c6d6fa;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 5px;
+  color: #2b2d42;
+}
+.Numbers2 {
+  text-align: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 5px;
+}
+.ItemNumbers {
+  margin: 20px;
+}
+.Maini > img {
+  object-fit: cover;
+  width: 100%;
+}
+@keyframes {
+}

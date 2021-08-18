@@ -1,0 +1,51 @@
+.NavigationboxContent {
+  color: white;
+  margin: 0 auto;
+  max-width: calc(100% - 5em);
+  width: 70em;
+  display: flex;
+  justify-content: center;
+}
+.BoxContent {
+  border-radius: 3px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.leftContent {
+  flex: 1 1;
+}
+.rightContent > h3 {
+  margin-top: 0px;
+}
+.rightContent {
+  padding: 20px;
+  margin: 10px 20px 10px 20px;
+  border-radius: 3px;
+  flex: 3 1;
+  background-color: #5eb1bf;
+}
+.itemNav {
+  border-radius: 3px;
+  margin: 10px 0px 10px 20px;
+  padding: 20px;
+  background-color: #5eb1bf;
+}
+
+.text-pop-up-top {
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes text-pop-up-top {
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}

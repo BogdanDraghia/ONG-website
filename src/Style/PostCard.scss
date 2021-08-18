@@ -1,0 +1,81 @@
+@import "./variable.scss";
+.postCard {
+  background-color: #f5f5f5;
+  margin: 20px;
+  width: 500px;
+}
+.tittlePostCard {
+  font-size: 30px;
+}
+.postcardsection {
+}
+//NEW
+
+.fontsizeSubTitlu {
+  font-size: 15px;
+}
+.fontsizeTitlu {
+  font-size: 24px;
+}
+.ShadowBoxPost {
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.test2 {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.TitluBoxPost {
+  margin-bottom: 10px;
+}
+.TextPreviewBoxPost {
+  margin-bottom: 10px;
+}
+.BoxPost {
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 200px;
+  padding: 10px 20px;
+}
+
+.FotoBoxPost {
+  border-radius: 5px 5px 0px 0px;
+  background-color: $accent-color;
+  width: 100%;
+  height: 150px;
+}
+.dateBoxPost {
+  align-self: flex-end;
+}
+.NumeProiectBoxPost {
+  color: $accent-color;
+  margin-bottom: 10px;
+}
+.ZonaTagBoxPost {
+  display: flex;
+  flex-direction: row;
+}
+.tag {
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  background-color: $accent-color;
+  margin: 10px;
+}
+.ReadMoreBoxPost {
+  font-size: 18px;
+  color: $accent-color;
+}
+.PreBoxPost a {
+  color: black;
+  text-decoration: none;
+}

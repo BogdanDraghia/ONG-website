@@ -1,0 +1,72 @@
+@import "./variable.scss";
+.SmallFooter {
+  height: 50px;
+  width: 100%;
+
+  background-color: $accent-color;
+}
+.ContentFooter {
+  height: 200px;
+  background-color: $CAccent-color;
+}
+.SubContentFooter {
+  height: 100%;
+}
+.LogoFooter {
+  flex: 2 1;
+  align-self: flex-start;
+}
+.ResumeFooter {
+  flex: 3 1;
+}
+.tittlu {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0px 10px;
+}
+.LogoFooter > img {
+  width: 100px;
+}
+.ContactFooter {
+  flex: 1 1;
+}
+.SubContentFooter {
+  width: 50em !important;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+.FlexFooter {
+  display: flex;
+  flex-direction: row;
+}
+.FlexFooter > ul {
+  display: flex;
+  margin: 0px;
+  margin: 0 40px 0px 0px;
+  flex-direction: column;
+}
+.FlexFooter > ul > li,
+.ContactFooter > ul > li {
+  font-size: 15px;
+
+  color: #646f79;
+  margin: 5px;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+}
+.socialmediaitem {
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  margin: 0 3px;
+  background-color: #f6daa2;
+}

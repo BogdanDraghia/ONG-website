@@ -1,0 +1,17 @@
+@import "./variable.scss";
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+body {
+  background-color: $background-color;
+}
+
+.containerBody {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  color: $black-color;
+}
